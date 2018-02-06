@@ -81,6 +81,8 @@
 - { repo: elzr/vim-json, on_ft: json }
 
 - { repo: mxw/vim-jsx, on_ft: [ jsx, javascript.jsx] }
+- { repo: maxmellon/vim-jsx-pretty, on_ft: [typescript, tsx, typescript.tsx] }
+- { repo: ianks/vim-tsx }
 
 # pangloss/javascript vs. othree/yajs
 #- { repo: othree/yajs.vim, on_ft: [ javascript, jsx, javascript.jsx ]}
