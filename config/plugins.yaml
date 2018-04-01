@@ -6,6 +6,7 @@
 # -------
 - repo: Shougo/dein.vim
 - repo: rafi/awesome-vim-colorschemes
+- repo: bling/vim-airline
 - repo: rafi/vim-badge
 - repo: thinca/vim-localrc
 - repo: christoomey/vim-tmux-navigator
@@ -35,6 +36,9 @@
 
 - repo: pearofducks/ansible-vim
   on_ft: [ ansible, ansible_hosts, ansible_template ]
+
+- repo: hashivim/vim-terraform
+  on_ft: [ terraform, tf]
 
 - repo: othree/html5.vim
   on_ft: html
@@ -74,16 +78,25 @@
     let g:javascript_plugin_flow = 1
     highlight! link jsFutureKeys PreProc
 
+- repo: prettier/vim-prettier
+  build: yarn install
+
 - { repo: othree/jspc.vim, on_ft: [ javascript, jsx, javascript.jsx ] }
 - { repo: MaxMEllon/vim-jsx-pretty, on_ft: [ javascript, jsx, javascript.jsx ]}
 - { repo: heavenshell/vim-jsdoc, on_ft: [ javascript, jsx, javascript.jsx ] }
 - { repo: moll/vim-node, on_ft: [ javascript, jsx, javascript.jsx ] }
 - { repo: elzr/vim-json, on_ft: json }
-
+  
+#Typescript related.
 - { repo: mxw/vim-jsx, on_ft: [ jsx, javascript.jsx] }
 - { repo: maxmellon/vim-jsx-pretty, on_ft: [typescript, tsx, typescript.tsx] }
 - { repo: ianks/vim-tsx }
-
+- repo: mhartington/nvim-typescript
+- repo: leafgarland/typescript-vim
+   
+#elm
+- repo: elmcast/elm-vim
+  
 # pangloss/javascript vs. othree/yajs
 #- { repo: othree/yajs.vim, on_ft: [ javascript, jsx, javascript.jsx ]}
 #- { repo: gavocanov/vim-js-indent, on_ft: [ javascript, jsx, javascript.jsx ]}
@@ -105,9 +118,6 @@
 - { repo: vim-scripts/python_match.vim, on_ft: python }
 - { repo: tmhedberg/SimpylFold, on_ft: python }
 - { repo: raimon49/requirements.txt.vim, on_ft: requirements }
-
-- { repo: StanAngeloff/php.vim, on_ft: php }
-- { repo: shawncplus/phpcomplete.vim, on_ft: php, on_i: 1 }
 
 - { repo: tbastos/vim-lua, on_ft: lua }
 - { repo: osyo-manga/vim-monster, on_ft: ruby }
