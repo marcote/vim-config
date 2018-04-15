@@ -6,8 +6,8 @@
 # -------
 - repo: Shougo/dein.vim
 - repo: rafi/awesome-vim-colorschemes
-- repo: bling/vim-airline
 - repo: rafi/vim-badge
+- repo: vim-airline/vim-airline
 - repo: thinca/vim-localrc
 - repo: christoomey/vim-tmux-navigator
 - repo: junegunn/vim-peekaboo
